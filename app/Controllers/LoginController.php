@@ -12,4 +12,14 @@ class LoginController extends BaseController
         //
         return view('login');
     }
+    public function forgotPassword()
+    {
+        //
+        return view('forgot-password');
+    }
+    public function register()
+    {
+        //
+        return view('register');
+    }
 }
